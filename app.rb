@@ -9,7 +9,7 @@ end
   get '/' do 
     
     
-@session = session
+@session = somesession
 erb :index
   end
   
